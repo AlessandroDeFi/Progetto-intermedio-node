@@ -1,0 +1,23 @@
+1. Descrizione del progetto
+ShowTracker è una piattaforma dove gli utenti possono:
+● Registrarsi e autenticarsi tramite Bearer Token (JWT).
+● Cercare e salvare serie TV e film utilizzando l’API di TMDb.
+● Creare liste personali di serie e film da guardare.
+● Segnare film e serie come “visti” o “da vedere”.
+● Lasciare una valutazione personale e commenti sulle opere salvate.
+2. Requisiti funzionali
+Il progetto è diviso in macro-funzionalità:
+A. Gestione utenti
+● Registrazione, login e logout.
+● Autenticazione tramite Bearer Token con Passport.js e JWT.
+● L’utente può può cercare contenuti, salvare film e serie, valutare e
+commentare.
+B. Integrazione TMDb
+● Ricerca film e serie tramite API TMDb.
+● Visualizzazione di dettagli come: titolo, trama, cast, valutazioni, trailer e
+immagini.
+● Salvataggio dei contenuti preferiti nel database personale dell’utente.
+C. Gestione contenuti personali
+● Creazione di liste personali di film e serie (“Da vedere”, “Visti”, ecc.).
+● Modifica o rimozione di contenuti dalle liste.
+● Possibilità di lasciare commenti e valutazioni per ogni contenuto salvato.
